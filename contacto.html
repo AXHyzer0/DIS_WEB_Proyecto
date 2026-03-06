@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta a Andres Alberto Juarez Soto para proyectos o trabajos.">
+    <title>Contacto | Andres Alberto Juarez Soto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">CONTACTO</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="portafolio.html">PORTAFOLIO</a></li>
+            </ul>
+        </nav>
+        <a href="contacto.html" class="btn-contacto" style="background-color: #e60000;">CONTACTO</a>
+    </header>
+
+    <main>
+        <section class="contacto-section">
+            <h1 class="page-title">Contacto</h1>
+
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo <span class="required">*</span> :</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email <span class="required">*</span> :</label>
+                    <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono <span class="required">*</span> :</label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="+52 XXX XXX XXXX">
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto <span class="required">*</span> :</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="" disabled selected>Selecciona una opción</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="proyecto">Proyecto</option>
+                        <option value="trabajo">Trabajo</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+                <div class="form-group align-top">
+                    <label for="mensaje">Mensaje <span class="required">*</span> :</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+
+                <div class="form-submit-area">
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="privacidad" name="privacidad" required>
+                        <label for="privacidad">He leído y acepto las <a href="#">Políticas de Privacidad</a>.</label>
+                    </div>
+                    <button type="submit" class="btn-submit">ENVIAR MENSAJE</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="info-contacto-section">
+            <table class="tabla-experiencia">
+                <thead>
+                    <tr>
+                        <th>Método de Contacto</th>
+                        <th>Detalle</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Email</td>
+                        <td>axhyzer@gmail.com</td>
+                        <td>24/7</td>
+                    </tr>
+                    <tr>
+                        <td>Teléfono</td>
+                        <td>+52 33 XXXX XXXX</td>
+                        <td>9:00 am - 6:00 pm</td>
+                    </tr>
+                    <tr>
+                        <td>Oficina</td>
+                        <td>Zapopan, Jalisco, México</td>
+                        <td>Solo con cita previa</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="mapa-placeholder">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOY32au2TmmAD5W5lCrODfijEvS3PHaYipKA&s" alt="Mapa de ubicación ficticio">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <p><a href="#">Privacy Policy</a> / <a href="#">Terms of Service</a></p>
+            <p>axhyzer@gmail.com</p>
+            <p class="copyright">&copy; 2026 Andres Alberto Juarez Soto.</p>
+        </div>
+        <div class="footer-right">
+            <a href="contacto.html" class="btn-contacto-small">CONTACTO</a>
+            <div class="social-links">
+                <a href="https://tiktok.com" target="_blank" aria-label="Tiktok"><img src="Imagenes/Tiktok.png" alt="Tiktok"></a>
+                <a href="https://twitter.com" target="_blank" aria-label="X (Twitter)"><img src="Imagenes/Xlogo.png" alt="X (Twitter)"></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram"><img src="Imagenes/InstagramLogo.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
